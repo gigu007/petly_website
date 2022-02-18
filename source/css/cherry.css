@@ -1,0 +1,242 @@
+/* #luna{
+    display: none;
+    background: #ff0000;
+    height: 300px;
+    
+    position: relative;
+    
+}
+.abduct-luna-container { 
+    background: #F8FAFD;
+    
+    border-radius: 10px;
+    width: 760px;
+
+} 
+.luna-homepage-container{
+    background: #F8FAFD;
+    border-radius: 10px;
+    width: 760px; 
+    padding: 50px;
+    
+}
+
+.luna-logo{
+    position: relative;
+
+}
+.l{
+     position: absolute;
+     top:20px;
+     left:35px;
+    
+}
+.luna-flex{
+    position: relative;
+
+}
+.luna-name h2{
+    
+    width: 85px;
+    height: 44px;
+
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+
+
+
+    color: #344062;
+
+}
+.luna-description h5{
+    
+    width: 98px;
+    height: 17px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #8588A3;
+
+}
+
+.luna-homepage-container-header h4{
+    
+    width: 157px;
+    height: 39px;
+
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 163.5%;
+
+
+
+    color: #58667E;
+
+}
+.luna-image{
+    position: relative;
+    top:-5px;
+    height: 249px;
+    width: 665px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.luna-image img{
+   position: relative;
+   top:7px;
+   left:6px;
+    width: 653px;
+    height: 233px;
+
+
+
+    
+    border-radius: 5px;
+}
+
+.luna-sub-image {
+    display: flex;
+   
+    
+}
+.luna-sub-image img{
+    margin: 0 4px;
+    width: 158px;
+}
+.dog{
+  position: absolute;  
+  left:570px;
+  top: -9px;
+}
+.abduct-luna-container{
+    padding-top: 90px;
+}
+.luna-logo-contaner{
+    display: flex;
+}
+.luna-logo-name{
+    margin-left:17px ;
+    margin-top: 7px;
+}
+
+.luna-name h2 {
+    width: 45px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #344062;
+}
+
+.luna-description-container{
+    background: white;
+    padding: 30px;
+    margin-top: 10px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #8588A3;
+}
+
+.luna-gps-container{
+    display: flex;
+    width: 147px;
+    height: 41px;
+    padding: 10px;
+    margin-top: 5px;
+    background: #F0F6FF;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 2px;
+}
+.gps-icon-img{
+    margin-right: 4px;
+}
+.luna-adopt-btn button{
+    width: 155px;
+    height: 48px;
+
+    
+    background: #0D75FF;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    outline: none;
+}
+.luna-adopt-btn button a{
+    color: white;
+    text-decoration: none;
+    background: #0D75;
+}
+
+.luna-modal{
+    display: none;
+    position:fixed;
+    z-index:1;
+    width:100%;
+    top:0;
+    height:100%;
+    overflow:auto;
+    background:rgba(0,0,0,0.3);  
+}
+.luna-modal-container{
+    position: absolute;
+    width: 471px;
+    height: 319px;
+    left: 679px;
+    top: 216px;
+     z-index: 66;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.luna-modal-container{
+    padding: 100px;
+}
+.luna-header-container-text h5{
+    
+    width: 286px;
+    height: 58px;
+   
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #344062;
+}
+.luna-header-container-text span{
+  color: #F15827;
+}
+.blue-btn  button{
+    position: absolute;
+    width: 124px;
+    height: 46px;
+    
+
+    background: #0D75FF;
+    border-radius: 5px;
+    }
+.grey-btn a button{
+   
+    width: 124px;
+    height: 46px;
+    margin-left: 140px;
+    color: #58667E;
+    background: #F3F5FB;
+    border-radius: 5px;
+    } */

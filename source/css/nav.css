@@ -1,0 +1,198 @@
+#navbar {
+  width: 100%;
+  background: #fff;
+  height: 78px;
+
+  position: fixed;
+  z-index: 66;
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-logo img {
+  position: absolute;
+  top: 12px;
+}
+
+.nav-logo span img {
+  position: relative;
+  top: 28px;
+  /* left: 215px; */
+  left: 16px;
+}
+
+.nav-logo h5 {
+  position: relative;
+  left: 55px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #58667e;
+}
+
+/* ul */
+ul {
+  display: flex;
+  margin-top: 25px;
+  margin-right: 400px;
+}
+
+ul li {
+  list-style: none;
+  margin: 0 30px;
+}
+ul li a {
+  width: 119px;
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #58667e;
+}
+
+/* btn */
+.btn {
+  position: relative;
+  top: 20px;
+  width: 109px;
+  height: 46px;
+  border: 1px solid #e7edfd;
+  box-sizing: border-box;
+  border-radius: 10px;
+  
+}
+
+.btn button {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+
+
+.btn .day {
+  width: 40px;
+  height: 36px;
+  border-radius: 10px;
+  position: relative;
+  background: #e7edfd;
+  left: 4px;
+  top: 6px;
+}
+
+.btn .night {
+  position: relative;
+  left: 18px;
+  top: 10px;
+}
+
+/* hamburger */
+.bar-menu {
+  position: absolute;
+  right: 100px;
+  top: 30px;
+  display: none;
+}
+
+/* hamburger closeBtn */
+.closeMenu {
+  position: absolute;
+  right: 100px;
+  top: 30px;
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  #navbar {
+    overflow-x: hidden;
+  }
+  .nav-content {
+    margin: 0 25px;
+  }
+  ul {
+    width: 700px;
+  }
+  li {
+    width: 800px;
+  }
+  .find {
+    margin-left: 40px;
+  }
+  .report {
+    position: relative;
+    left: -140px;
+  }
+
+  .btn {
+    position: absolute;
+    left: 638px;
+  }
+
+  @media screen and (max-width: 500px) {
+    #navbar {
+        height: 170px;
+    }
+    .nav-content {
+      margin: 0 15px;
+    }
+    .nav-logo img {
+        position: absolute;
+        top: 45px;
+    }
+    .nav-logo span img {
+        position: relative;
+        top: 58px;
+    }
+
+    .nav-logo h5 {
+        position: relative;
+        top: 30px;
+    }
+
+    ul {
+      display: none;
+    }
+
+    .btn {
+      position: absolute;
+      left: 50px;
+    }
+
+    /* hamburger */
+    .bar-menu {
+        position: absolute;
+        right: 34px;
+        top: 50px;
+        display: none;
+    }
+
+    /* hamburger closeBtn */
+    .closeMenu {
+        position: absolute;
+        right: 34px;
+        top: 50px;
+        display: block;
+    }
+
+    .bgsmartPhone {
+        background: #fff;
+        height: 80px;
+        width: 790px;
+        position: absolute;
+        top: 98px;
+        left: -10px;
+        z-index: 66;
+        /* display: none; */
+    }
+
+    
+  }
+}

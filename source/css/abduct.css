@@ -1,0 +1,289 @@
+#abduct{
+    background: #f3fafc;
+    position: relative;
+    top: 77px;
+    height: 800px;
+}
+
+.abduct-flex {
+    display: flex;
+    position: relative;
+    top: 90px; 
+}
+.abductmenu {
+    margin-top: 40px;
+}
+
+.abductmenu h2 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #0D75FF;
+}
+
+.abductmenu h1 {
+    width: 545px;
+    height: 116px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+
+    color: #344062;
+}
+.abductmenu h1 span {
+    color: #ff000079;
+}
+.abductmenu .pet-adoption {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #344062;
+}
+
+/* abduct-mainBox */
+.abduct-mainBox {
+    width: 783px;
+    height: 230px;
+    background: #ffffff;
+    position: absolute;
+    z-index: 22;
+    top: 350px;
+}
+.searchMenuBox {
+    width: 722px;
+    height: 64px;
+    background: #F8FAFD;
+    border-radius: 999px;
+    margin-top: 18px;
+    margin-left: 30px;
+   
+}
+
+.searchmenuFlex {
+    display: flex;
+}
+.searchmenuFlex select {
+    margin: 22px 20px;
+    border: none;
+    background: none;
+    outline: none;
+    width: 99px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #8588A3;
+}
+
+/* searchBtn */
+.searchBtn {
+    position: relative;
+    left: 160px;
+    width: 80px;
+    height: 64px;
+    background: #0D75FF;
+    border-radius: 999px
+}
+
+.searchBtn a {
+    position: relative;
+    top: 18px;
+    left: 10px;
+}
+
+
+.searchmenuFlex img {
+    position: relative;
+    left: 17px;
+    top: 3px;
+}
+
+/* searchOrder */
+.searchOrder {
+    position: absolute;
+    top: 110px;
+}
+
+.searchOrder h3 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #58667E;
+}
+
+/* orderBtn */
+.orderBtn {
+    width: 79px;
+    height: 45px;
+    background: rgba(13, 117, 255, 0.05);
+    border-radius: 10px;
+    margin-top: 17px;
+}
+
+.orderBtn a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #0D75FF;
+    text-decoration: none; 
+}
+.orderBtn p {
+  position: relative;
+  top: 15px;
+  left: 15px;
+}
+
+.orderBtn img {
+    position: relative;
+    left: 2px;
+    top: 1px;
+}
+
+
+
+/* abductSideImg */
+.abductSideImg {
+    position: relative;
+    left: 167px; 
+}
+
+
+
+
+/* side img */
+.sideimg1 img {
+    position: absolute;
+    right: 0;
+    top: 660px;
+}
+
+.sideimg2 img {
+    position: absolute;
+    right: 60px;
+    top: 660px;
+}
+
+.sideimg4 img {
+    position: absolute;
+    top: 754px;
+    right: 0;
+}
+
+.sideimg3 img {
+    position: absolute;
+    right: 60px;
+    top: 709px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .abductSideImg {
+        display: none;
+    }
+
+    #abduct {
+        width: 787px;
+    }
+    .abduct-flex {
+        margin: 0 25px;
+    }
+
+    .abduct-mainBox {
+        width: 720px;
+        position: relative;
+        top: 120px;
+    } 
+    .searchMenuBox {
+        width: 670px;
+        margin-left: 23px;
+        position: relative;
+        top: 20px;
+    }
+   
+    .searchBtn {
+        position: absolute;
+        left: 610px;
+    }
+
+    @media screen and (max-width: 500px){
+        #abduct {
+            position: absolute;
+           height: 1400px;
+        }
+
+        .abductmenu {
+            position: relative;
+            top: 130px;
+        }
+
+        .sideimg1,
+        .sideimg2,
+        .sideimg3,
+        .sideimg4 {
+             display: none;
+        }
+
+        .abduct-mainBox {
+            height: 770px;
+        }
+
+        .searchMenuBox {
+            height: 590px;
+            border-radius: 2px;
+            position: relative;
+            top: 25px;
+        }
+
+        .searchmenuFlex {
+            display: block;
+            position: relative;
+            top: 7px;
+        }
+        .searchmenuFlex select {
+            margin: 37px 0;
+            width: 600px;
+            padding-left: 40px;
+            font-size: 40px;
+        }
+
+        .searchOrder {
+            position: absolute;
+            top: 620px;
+        }
+
+        .searchBtn {
+            position: relative;
+            left: 19px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
