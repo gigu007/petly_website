@@ -247,3 +247,178 @@
         from{opacity:0}
         to{opacity:1.2}
     }
+    @media screen  and (max-width:768px){
+        #navbar {
+            overflow-x: hidden;
+            
+          }
+          .nav-content {
+            margin: 0 25px;
+          }
+          ul {
+            width: 700px;
+          }
+          li {
+            width: 800px;
+          }
+          .find {
+            margin-left: 40px;
+          }
+          .report {
+            position: relative;
+            left: -140px;
+          }
+        
+          .btn {
+            position: absolute;
+            left: 638px;
+          }
+          #luna{
+            /* background: #ff0000; */
+            height: 950px;
+            margin-left: 10px;
+           
+        }
+        #footer {
+            width: 100%;
+            height: 850px;
+            overflow-x: hidden;
+            position: relative;
+            margin-bottom: 50px;
+        }
+        
+        .footer-content {
+            margin: 0 25px;
+        }
+    
+        .first_shape{
+            position: relative;
+            left: -28px;
+        }
+    
+        .first-shape {
+            position: relative;
+            top: 90px;
+            left: -24px;
+        }
+    
+        .second-shape img{
+            position: relative;
+            right: 40px;
+            top: 80px;
+        }
+       
+        .center-heading {
+            position: relative;
+            top: 80px;
+        }
+        .logo-link {
+            position: relative;
+            top: 70px;
+        }
+    
+        .center-container button {
+            margin-top: 100px;
+        }
+    .footer-last-container{
+        margin-left: 100px;
+    }
+        .social-media-img {
+            position: relative;
+            left: -10px;
+            top: 70px;
+        }
+    
+        .copy-right {
+            position: relative;
+            left: -150px;
+            top: 40px;
+        }
+    
+        .privacy{
+            position: relative;
+            top: 100px;
+            right: 700px;
+            font-size: 10px;
+            
+        }
+        
+        .luna-modal-container{
+            position: absolute;
+            width: 471px;
+        
+            height: 319px;
+            left: 109px;
+            top: 216px;
+             z-index: 66;
+        }
+        .luna-header-container-text h5{
+            position: relative;
+            top:-5px;
+        }
+        
+    }
+    @media screen  and (max-width:500px){
+       
+        #navbar {
+            height: 170px;
+        }
+        .nav-content {
+          margin: 0 15px;
+        }
+        .nav-logo img {
+            position: absolute;
+            top: 45px;
+        }
+        .nav-logo span img {
+            position: relative;
+            top: 58px;
+        }
+    
+        .nav-logo h5 {
+            position: relative;
+            top: 30px;
+        }
+    
+        ul {
+          display: none;
+        }
+    
+        .btn {
+          position: absolute;
+          left: 50px;
+        }
+        .bgsmartPhone{
+          display: none;
+        }
+    
+        /* hamburger */
+        .bar-menu {
+            position: absolute;
+            right: 34px;
+            top: 50px;
+            display: block;
+        }
+    
+        /* hamburger closeBtn */
+        .closeMenu {
+            position: absolute;
+            right: 34px;
+            top: 50px;
+            /* display: block; */
+        }
+    
+        .bgsmartPhone {
+            background: #fff;
+            height: 80px;
+            width: 790px;
+            position: absolute;
+            top: 98px;
+            left: -10px;
+            z-index: 66;
+            /* display: none; */
+        }
+    
+        
+      }
+    }

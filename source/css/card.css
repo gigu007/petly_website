@@ -33,14 +33,22 @@
 } 
 
 
-.card1-img,.card1-img-fiona img,.card1-img-cherry img,.card1-img-buna img{
+.card1 img{
     height: 165px;
     width: 275px;
     top: 992px;
     border-radius: 5px;
-    background: #e5e5e5;
 }
 
+.card1-sub-content-img img {
+    width: 20px;
+    height: 20px;
+}
+
+.icon-mg img {
+    height: 20px;
+    width: 20px;
+}
 
 .card1-sub-content{
     display: flex;
@@ -84,7 +92,7 @@
 .card1-sub-content2 a {
     background: #0D75FF;
     width: 76px;
-    /* height: 29px; */
+   
     padding: 10px;
     border-radius:30px;
     position: relative;
@@ -248,11 +256,93 @@
     @media screen and (max-width: 500px) {
         #card {
             position: absolute;
-            top: 1000px;
-            width: 100%;
+            top: 1700px;
             overflow-x: hidden;
             overflow-y: scroll;
+            height: 7000px;
+            width: 895px;
         }
+
+        .cards {
+            margin: 0 20px;
+            position: relative;
+            top: -80px;
+        }
+
+        .card1 {
+            width: 850px;
+            height: 700px;
+        }
+        .card-header {
+            margin-left: 49px;
+            position: relative;
+            top: 17px;
+        }
+
+        .card1 img{
+           width: 780px;
+           height: 500px;
+        }
+
+        .card1-sub-content-img img {
+            height: 40px;
+            width: 40px;
+            position: relative;
+            left: 470px;
+            top: -0px;
+        }
+        .card1-sub-content2-last-content {
+            position: relative;
+            left: 650px;
+            top: 10px;
+        }
+        .icon-mg img {
+            height: 30px;
+            width: 30px;
+        }
+
+        .card1-sub-content2 a {
+           position: relative;
+           top: 40px;
+        }
+
+        .text {
+            margin-left: 20px;
+        }
+
+        
+
+        .mini-boxes {
+            display: block;
+            margin-left: 40px;
+        }
+
+        .box1,.box2,.box3,.box4,.box5 {
+            width: 700px;
+            margin: 16px 0;
+        }
+
+        .box1-img img,
+        .box2-img img,
+        .box3-img img,
+        .box4-img img,
+        .box5-img img{
+          position: relative;
+          left: 170px;
+          top: 22px;
+        }
+        .box1-h3,
+        .box2-h3,
+        .box3-h3,
+        .box4-h3,
+        .box5-h3 {
+          padding-left: 250px;
+        }
+
+        .search-menu2 {
+            margin-left: 20px;
+        }
+
        
         
     }

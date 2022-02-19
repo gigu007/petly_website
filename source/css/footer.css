@@ -167,10 +167,9 @@ color: #616681;
     @media screen and (max-width: 500px) {
         #footer {
             width: 900px;
-            overflow-x: hidden;
-            position: relative;
-            top: 1270px;
-            
+            position: absolute;
+            top: 8300px;
+            height: 750px;    
         }
     }
 }

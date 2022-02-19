@@ -223,6 +223,7 @@
         #abduct {
             position: absolute;
            height: 1400px;
+           width: 895px;
         }
 
         .abductmenu {
@@ -239,10 +240,12 @@
 
         .abduct-mainBox {
             height: 770px;
+            width: 830px;
         }
 
         .searchMenuBox {
             height: 590px;
+            width: 780px;
             border-radius: 2px;
             position: relative;
             top: 25px;

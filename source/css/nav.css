@@ -94,6 +94,10 @@ ul li a {
   top: 10px;
 }
 
+.bgsmartPhone {
+  /* display: none; */
+}
+
 /* hamburger */
 .bar-menu {
   position: absolute;
@@ -165,13 +169,16 @@ ul li a {
       position: absolute;
       left: 50px;
     }
+    .bgsmartPhone{
+      display: none;
+    }
 
     /* hamburger */
     .bar-menu {
         position: absolute;
         right: 34px;
         top: 50px;
-        display: none;
+        display: block;
     }
 
     /* hamburger closeBtn */
@@ -179,7 +186,7 @@ ul li a {
         position: absolute;
         right: 34px;
         top: 50px;
-        display: block;
+        /* display: block; */
     }
 
     .bgsmartPhone {
