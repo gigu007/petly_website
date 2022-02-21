@@ -39,21 +39,16 @@ document.querySelector('.grey-btn a').addEventListener('click', () => {
     let x = document.querySelector('#lunamodal').style.display = 'none';
 })
 
-// var darkMode, lunamodal,close_menu
-// lunamodal = document.querySelector('#bgsmartPhone');
-// close_menu=document.querySelector('#closeMenu');
+const abduct=document.querySelector('#abduct'),
+      card=document.querySelector('#card'),
+      footer=document.querySelector('#footer'),
+      night=document.querySelector('#night');
 
-// darkMode=document.querySelector('#bar-menu').addEventListener('click', function() {
-    
-//     bgsmartPhone.style.display = 'block';
-//     close_menu.style.display='block';
-//     darkMode.style.display='none';
-
-//     console.log('clicked...');
-// });
-
-// document.querySelector('#closeMenu').addEventListener('click', () => {
-//     let x = document.querySelector('#bgsmartPhone').style.display = 'none';
-//     close_menu.style.display='none';
-//     darkMode.style.display='block';
-// })
+      //listenrs
+      loadListener();
+      function loadListener(){
+          night.addEventListener('click',()=>{
+              abduct.style.display='none';
+            //   abduct.style.color='#ffffff';
+          })
+      }
