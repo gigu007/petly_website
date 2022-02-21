@@ -26,6 +26,19 @@ function loadListener() {
 
     })
 }
+var luna, lunamodal,
+lunamodal = document.querySelector('#lunamodal');
+
+
+luna=document.querySelector('#modalBtn').addEventListener('click', function() {
+    lunamodal.style.display = 'block';
+    console.log('clicked...');
+});
+
+document.querySelector('.grey-btn a').addEventListener('click', () => {
+    let x = document.querySelector('#lunamodal').style.display = 'none';
+})
+
 // var darkMode, lunamodal,close_menu
 // lunamodal = document.querySelector('#bgsmartPhone');
 // close_menu=document.querySelector('#closeMenu');
