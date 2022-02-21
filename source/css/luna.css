@@ -1,3 +1,4 @@
+
 #luna{
     /* background: #ff0000; */
     height: 950px;
@@ -190,6 +191,7 @@
     height: 319px;
     left: 539px;
     top: 216px;
+    padding: 100px;
      z-index: 66;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
@@ -198,9 +200,7 @@
     animation-duration:2s;
 }
 
-.luna-modal-container{
-    padding: 100px;
-}
+
 .luna-header-container-text h5{
     
     width: 286px;
@@ -360,24 +360,33 @@
     }
     @media screen  and (max-width:500px){
        
+        
+        
+
         #navbar {
-            height: 170px;
+            height: 80px;
+            /* width: 395px;
+            overflow-x: hidden; */
+
         }
         .nav-content {
           margin: 0 15px;
         }
         .nav-logo img {
             position: absolute;
-            top: 45px;
+            top: 25px;
         }
         .nav-logo span img {
             position: relative;
-            top: 58px;
+            top: 38px;
+        }
+        .luna-homepage-container-header h4{
+            margin-left: 50px;
         }
     
         .nav-logo h5 {
             position: relative;
-            top: 30px;
+            top: 10px;
         }
     
         ul {
@@ -395,7 +404,7 @@
         /* hamburger */
         .bar-menu {
             position: absolute;
-            right: 34px;
+            right:34px;
             top: 50px;
             display: block;
         }
@@ -411,14 +420,154 @@
         .bgsmartPhone {
             background: #fff;
             height: 80px;
-            width: 790px;
+            width: 890px;
             position: absolute;
             top: 98px;
             left: -10px;
             z-index: 66;
             /* display: none; */
+
         }
+        #luna{
+            position: absolute;
+            height: 750px;
+            /* width:895px; */
+            width: 395px;
+            /* height: 1005px; */
+            overflow-x: hidden;
+            /* overflow-y:scroll ; */
+            /* bottom: 300px; */
+        }
+        .luna-homepage-container{
+            background: #F8FAFD;
+            border-radius: 10px;
+            width: 360px; 
+            height: 1005px;
+            padding: 30px;
+            
+        }
+        .luna-name h2{
     
+            width: 35px;
+            height: 24px;
         
+        
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 200;
+            font-size: 16px;
+            line-height: 24px;
+        
+        
+        
+            
+        
+        }
+        .luna-image{
+    
+        padding-left: -30px;
+        height: 149px; 
+        width: 310px;
+        /* margin-left: 90px; */
+        /* background: none; */
+        /* border: none; */
+         
+        
+    
+        }
+        .luna-image img{
+            position: relative;
+            top:7px;
+            left:20px;
+             width: 273px;
+             height: 133px;
+         
+         
+         
+             /* background: url(.jpg), #C4C4C4; */
+             border-radius: 5px;
+         }
+        .luna-sub-image{
+            display: block;
+            margin-left: 80px;
+        }
+        
+        .luna-description-container{
+            padding-left: 40px;
+            height: 320px;
+
+        }
+        /* .luna-description-container-paragraph {
+            font-size: 8px;
+        } */
+        .luna-description-container-header {
+            margin-left: 80px;
+
+        }
+        .luna-adopt-btn button{
+
+            position:relative;
+            bottom:68px;
+            left:40px;
+            color:white;
+            height:38px;
+
+        }
+        #footer {
+            width: 395px;
+            position: absolute;
+            top: 740px;
+            height: 850px;    
+            /* bottom:0; */
+            overflow-x: hidden;
+            /* overflow-y:scroll ; */
+        }
+        .center-heading{
+            position: relative;
+            left: -130px;
+            font-size: 34px;
+        }
+        .center-container button{
+            position: relative;
+            left:-140px;
+            height: 40px;
+            width: 120px;
+        }
+        .footer-last-container{
+            display: block;
+        }
+        .privacy{
+            position: relative;
+            left: -10px;
+        }
+        .copy-right{
+            position: relative;
+            left:-350px;
+            top:100px;
+        }
+        
+        .luna-modal-container{
+            position: absolute;
+            width: 350px;
+            padding-top: 70px;
+            padding-left: 30px;
+            height: 219px;
+            left: 13px;
+            top: 216px;
+             z-index: 66;
+        }
+        .blue-btn button{
+            position: relative;
+            left:20px;
+            top: 20px;
+            color: white;
+        }
+        .grey-btn a button{
+            position: relative;
+            left:155px;
+            top: -24px;  
+        }
+
+             
       }
-    }
+    
